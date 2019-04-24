@@ -1,3 +1,53 @@
-/* Define your CSS styles here */
-/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+.row
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.key {
+    border-width: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 2vw;
+    justify-content: center;
+    margin: 1px;
+    height: 5vw;
+    width: 5vw;
+    overflow: hidden;
+
+    background: darkgrey;
+    border-color: blue;
+    position: relative;
+}
+
+.special
+{
+    width: 8vw;
+    background: lightseagreen;
+    border-color: darkblue;
+
+}
+
+.space
+{
+    width: 50vw;
+}
+
+.key:hover
+{
+    background: grey;
+}
+
+.key:active
+{
+    background: darkslategrey;
+}
+
+.special:active
+{
+    background: darkslategrey;
+}
